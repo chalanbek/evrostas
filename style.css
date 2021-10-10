@@ -1,0 +1,332 @@
+a
+{
+	text-decoration:none;
+}
+#evrst
+{
+	color:#00CC00;
+	font-size:75px;
+	margin-left:50px;
+}
+.men
+{
+	color:black;
+	font-size:40px;
+	margin-right:50px;
+}
+.hmen
+{
+	color:rgb(0, 204, 0);
+	font-size:40px;
+	margin-right:50px;
+	text-decoration:underline;
+}
+.men:hover
+{
+	color:rgb(0, 204, 0);
+	font-size:40px;
+	margin-right:50px;
+	text-decoration:underline;
+}
+.menuu
+{
+	margin-top:-7%;
+	text-align:left;
+	padding-left:35%;
+}
+.glp
+{
+	color:black;
+	font-size:40px;
+	text-indent:7%;
+	padding-bottom:40px;
+}
+.gldiv
+{
+padding-top:40px;
+margin-top:-3%;
+margin-left:5%;
+margin-right:5%;
+background-color:rgba(0, 204, 0, .1);
+}
+.gla
+{
+	color:rgb(0, 204, 0);
+}
+.gla:hover
+{
+	color:rgb(0, 104, 0);
+	text-decoration:underline;
+}
+#glimg
+{
+	width:100%;
+}
+#idiv
+{
+	margin-left:30%;
+	margin-right:30%;
+	background-color:rgba(0, 254, 0, .1);
+}
+.iimg
+{
+	width:80%;
+}
+.item
+{
+	margin-right:5%;
+	margin-left:5%;
+	margin-top:10%;
+	padding-top:10%;
+	text-align:center;
+	background-color:rgba(0, 204, 0, .2);
+	padding-bottom:10%;
+}
+.ih
+{
+	color:black;
+	font-size:25px;
+}
+.ih:hover
+{
+	color:rgb(0, 104, 0);
+	text-decoration:underline;
+}
+.rpp
+{
+	color:black;
+	background-color:red;
+	text-align:center;
+	margin-right:10%;
+	margin-left:10%;
+	font-size:65px;
+}
+.rppt
+{
+	background-color:rgba(0, 204, 0, .1);
+	color:black;
+	margin-right:10%;
+	margin-left:10%;
+	font-size:35px;
+	margin-top:-4%;
+	text-indent:7%;
+}
+#rcdiv
+{
+	margin-top:-4%;
+	margin-left:30%;
+	margin-right:30%;
+	background-color:rgba(254, 0, 0, .1);
+}
+.rctem
+{
+	margin-right:5%;
+	margin-left:5%;
+	margin-top:10%;
+	padding-top:10%;
+	text-align:center;
+	background-color:rgba(204, 0, 0, .2);
+	padding-bottom:10%;
+}
+.rih
+{
+	color:black;
+	font-size:25px;
+}
+.rih:hover
+{
+	color:rgb(104, 0, 0);
+	text-decoration:underline;
+}
+.rnih
+{
+	text-decoration:line-through;
+	color:black;
+	font-size:25px;
+}
+.rcih
+{
+	color:black;
+	font-size:25px;
+}
+.rcih:hover
+{
+	color:rgb(104, 0, 0);
+	text-decoration:underline;
+}
+.pppt
+{
+	background-color:rgba(244, 0, 0, .1);
+	color:black;
+	margin-right:10%;
+	margin-left:10%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:2%;
+	padding-bottom:2%;
+	font-size:35px;
+	text-indent:7%;
+}
+.pli
+{
+	color:black;
+	font-size:30px;
+}
+#pul
+{
+	margin-top:-2%;
+	background-color:rgba(0, 204, 0, .1);
+	margin-right:10%;
+	margin-left:10%;
+	padding-left:7%;
+		padding-top:2%;
+	padding-bottom:2%;
+}
+b:hover
+{
+	text-decoration:underline;
+}
+#pla
+{
+	color:black;
+	font-size:65px;
+}
+#pla:hover
+{
+	color:rgb(0, 104, 0);
+	font-size:70px;
+	text-decoration:underline;
+}
+.emp
+{
+	color:black;
+	font-size:35px;
+	background-color:rgba(0, 204, 0, .1);
+	margin-right:10%;
+	margin-left:10%;
+	text-indent:7%;
+}
+.aemp
+{
+	color:black;
+	font-size:35px;
+	background-color:rgba(0, 204, 0, .1);
+	margin-right:20%;
+	margin-left:20%;
+	text-indent:7%;
+	border-radius:90px;
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+.aemp:hover
+{
+	color:rgb(0, 104, 0);
+	font-size:40px;
+	background-color:rgba(0, 104, 0, .1);
+	margin-right:19%;
+	margin-left:19%;
+	text-indent:7%;
+	border-radius:90px;
+}
+#bons
+{
+	color:black;	
+	
+}
+#bons:hover
+{
+	
+	box-shadow: 10px 10px 10px rgba(0,204,0,0.5);
+	font-size:102%;
+}
+#bonsdiv
+{
+	margin-top:-1%;
+	background-image:url(bon.jpg);
+	margin-right:30%;
+	margin-left:30%;
+	text-align:center;
+	font-size:180%;
+	background-size:100%;
+	padding-top:18%;
+	padding-bottom:2%;
+	box-shadow: 10px -10px 10px rgba(0,204,0,0.5);
+}
+#bonsdiv:hover
+{
+	
+	color:rgb(0, 204, 0);	
+	box-shadow: -10px 10px 20px rgba(0,104,0,0.5);
+}
+#weh2
+{
+	color:black;
+	font-size:35px;
+	background-color:rgba(0, 0, 0, .1);
+	margin-left:5%;
+	margin-right:5%;
+}
+.weop
+{
+	color:black;
+	font-size:30px;
+	background-color:rgba(0, 204, 0, .5);
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:-2%;
+	text-indent:7%;
+}
+#wediv
+{
+	margin-left:25%;
+	margin-right:25%;
+	background-color:rgba(0, 254, 0, .1);
+	margin-top:-1%;
+}
+.wetem
+{
+	margin-right:5%;
+	margin-left:5%;
+	margin-top:10%;
+	text-align:center;
+	background-color:rgba(0, 204, 0, .2);
+	
+}
+.weih
+{
+	color:black;
+	font-size:25px;
+}
+.wezih
+{
+	color:black;
+	font-size:20px;
+}
+.dih
+{
+	color:black;
+	font-size:30px;
+}
+.kinf
+{
+	background-color:rgba(0, 0, 0, .2);
+	margin-left:10%;
+	margin-right:10%;
+}
+#nsh4
+{
+	color:black;
+	text-align:center;
+	font-size:35px;
+}
+.weop2
+{
+	color:black;
+	font-size:30px;
+	background-color:rgba(0, 204, 0, .3);
+	margin-left:25%;
+	margin-right:25%;
+	text-indent:7%;
+}
