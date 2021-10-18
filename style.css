@@ -346,3 +346,35 @@ b:hover
 {
 	color:black;
 }
+#glimgwe
+{
+	width:100%;
+}
+form
+{
+	color:black;
+}
+#test
+{
+	text-align:center;
+}
+#weapi
+{
+	color:black;
+	font-size:35px;
+	text-align:center;
+	margin-left:5%;
+	margin-right:5%;
+}
+#weapi:hover
+{
+	font-size:37px;
+	text-align:center;
+	background-color:rgba(0, 204, 0, .2);
+	box-shadow: 10px 10px 10px rgba(0,204,0,0.5);
+	text-decoration:underline;
+}
+#fasta
+{
+	color:black;
+}
