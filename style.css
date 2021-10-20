@@ -378,3 +378,12 @@ form
 {
 	color:black;
 }
+#sumbit
+{
+	font-size:20px;
+	color:black;
+	background-color:rgba(0, 0, 0, .3);
+	border-radius:5px;
+	padding-left:1%;
+	padding-right:1%;
+}
