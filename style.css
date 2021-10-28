@@ -330,19 +330,29 @@ b:hover
 	margin-right:15%;
 	text-indent:7%;
 }
-#fmev
+.fmev
 {
-	width:90%;
+	width:100%;
 	
 }
 #imgdivac
 {
 	text-align:center;
 	background-color:rgba(0, 204, 0, .1);
-	margin-right:30%;
-	margin-left:30%;
+	margin-right:0%;
+	margin-left:0%;
+	
 }
-#evfmh
+.trtr
+{
+	border: 5px outset black;
+}
+.trtr:hover
+{
+	border: 7px dashed rgba(0, 0, 0, .8);
+	background-color:rgba(0, 204, 0, .2);
+}
+.evfmh
 {
 	color:black;
 }
@@ -386,4 +396,17 @@ form
 	border-radius:5px;
 	padding-left:1%;
 	padding-right:1%;
+}
+#glvid
+{
+	text-align:center;
+}
+#kokol
+{
+	text-align:center;
+}
+#emindiv
+{
+	background-image:url(kollectiveop.png);
+	background-size:100% 100%;
 }
