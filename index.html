@@ -39,6 +39,8 @@
       position: relative;
       overflow: hidden;
 	  text-align:center;
+	  width:90%;
+	  margin-left:5%;
     }
 
     .slider__wrapper {
@@ -59,21 +61,21 @@
       display: none;
       align-items: center;
       justify-content: center;
-      width: 100px;
+      width: 7%;
       color: #fff;
       text-align: center;
       opacity: 0.5;
-      height: 450px;
+      height: 100%;
       transform: translateY(-50%);
-      background: rgba(0, 179, 0, .5);
+      background: rgba(0, 0, 0, .5);
     }
 
     .slider__control_show {
       display: flex;
     }
 
-    .slider__control:hover,
-    .slider__control:focus {
+    .slider__control:hover
+    {
       color: #fff;
       text-decoration: none;
       outline: 0;
@@ -285,34 +287,44 @@ font-size:75%;
 				</th>
 			</tr>	
 		</table>
-			<div id="rcdiv">
-			<h4 id="nsh4">рекомендуем купить</h4>
-		<a href="buying.html">
-		<div class="rctem">
-			<img src="tea.png" class="iimg" alt="индийский чай" />
-			<h1 class="rih" >индийский чай</h1>
-			<h1 class="rnih" >98.76 р.</h1>
-			<h1 class="rcih" >97.53 р.</h1>
-		</div>
-		</a>
-		<a href="buying.html">
-		<div class="rctem">
-			<img src="cvet.png" class="iimg" alt="цветы"/>
-			<h1 class="rih" >цветы</h1>
-			<h1 class="rnih" >2 р. / шт.</h1>
-			<h1 class="rcih" >1,8 р. / шт.</h1>
-		</div>
-		</a>
-		<a href="buying.html">
-		<div class="rctem">
-			<img src="black.png" class="iimg" alt="Black Giovanna"/>
-			<h1 class="rih" >Black Giovanna</h1>
-			<h1 class="rnih" >0.01 р.</h1>
-			<h1 class="rcih" >0.00 р.</h1>
-		</div>
-		</a>
+			<div id="rcdivrec">
+		<table id="it_tbl">	
+			<tr>
+				<td class="it_td">
+				<a name="erik"></a><a href="buying.html">
+				<div class="rctem">
+					<img src="shoko.png" class="iimg" alt="шоколадка"/>
+					<h1 class="rih" >шоколадка</h1>
+					<h1 class="rnih" >4,99 р.</h1>
+					<h1 class="rcih" >4,97р.</h1>
+				</div>
+				</a>
+				</td>
+				<td class="it_td">
+				<a href="buying.html">
+				<div class="rctem">
+					<img src="tea.png" class="iimg" alt="индийский чай" />
+					<h1 class="rih" >индийский чай</h1>
+					<h1 class="rnih" >98.76 р.</h1>
+					<h1 class="rcih" >97.53 р.</h1>
+				</div>
+				</a>
+				</td>
+				<td class="it_td">
+				<a href="buying.html">
+				<div class="rctem">
+					<img src="black.png" class="iimg" alt="Black Giovanna"/>
+					<h1 class="rih" >Black Giovanna</h1>
+					<h1 class="rnih" >0.01 р.</h1>
+					<h1 class="rcih" >0.00 р.</h1>
+				</div>
+				</a>
+				</td>
+			</tr>
+		</table>		
 	</div>
-		<p class="glp">
+	
+		<p class="glp" >
 				Короче, у нас есть много чего. Много разных товаров, скидок и прочего. И пока меня не забрали 
 				в дурку, я постараюсь рассказать вам хоть что-то. 
 			</p>
@@ -452,7 +464,10 @@ font-size:75%;
     }());
 
     var slider = multiItemSlider('.slider')
-
+	function eheh()
+	{
+	document.getElementById('gm').style.backgroundColor = "black";
+	}
   </script>
   
  </body>

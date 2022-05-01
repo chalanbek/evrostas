@@ -40,6 +40,8 @@ a
 	font-size:40px;
 	text-indent:7%;
 	padding-bottom:40px;
+	padding-left:5%;
+	padding-right:5%;
 }
 .gldiv
 {
@@ -64,23 +66,45 @@ background-color:rgba(0, 204, 0, .1);
 }
 #idiv
 {
-	margin-left:30%;
-	margin-right:30%;
+	width:80%;
+	margin-left:10%;
+	margin-top:5%;
+	margin-bottom:5%;
 	background-color:rgba(0, 254, 0, .1);
 }
 .iimg
 {
-	width:80%;
+	width:300px;
+	height:400px
+}
+.iimg2
+{
+	width:60%;
+}
+.iimg:hover
+{
+	width:280px;
+	opacity:0.9;
 }
 .item
 {
-	margin-right:5%;
-	margin-left:5%;
-	margin-top:10%;
-	padding-top:10%;
+
 	text-align:center;
 	background-color:rgba(0, 204, 0, .2);
-	padding-bottom:10%;
+	width:90%;
+	margin-right:5%;
+	margin-left:5%;
+	margin-bottom:5%;
+	margin-top:5%;
+}
+.it_td
+{
+	width:10%;
+
+}
+#it_tbl
+{
+	width:100%;
 }
 .ih
 {
@@ -113,9 +137,16 @@ background-color:rgba(0, 204, 0, .1);
 }
 #rcdiv
 {
-	margin-top:-4%;
-	margin-left:30%;
-	margin-right:30%;
+	margin-top:-2%;
+	width:80%;
+	margin-left:10%;
+	margin-bottom:5%;
+	background-color:rgba(254, 0, 0, .1);
+}
+#rcdivrec
+{
+
+	margin-bottom:5%;
 	background-color:rgba(254, 0, 0, .1);
 }
 .rctem
@@ -191,6 +222,15 @@ b:hover
 	color:black;
 	font-size:65px;
 }
+#vsotut
+{
+	background-color:rgba(0,204,0,.3);
+	text-align:center;
+	margin-right:40%;
+	margin-left:40%;
+	border-radius:180px;
+	margin-bottom:1%;
+}
 #pla:hover
 {
 	color:rgb(0, 104, 0);
@@ -202,9 +242,16 @@ b:hover
 	color:black;
 	font-size:35px;
 	background-color:rgba(0, 204, 0, .1);
+	text-indent:7%;
+}
+.emp2
+{
+	color:black;
+	font-size:35px;
+	background-color:rgba(0, 204, 0, .1);
+	text-indent:7%;
 	margin-right:10%;
 	margin-left:10%;
-	text-indent:7%;
 }
 .aemp
 {
@@ -223,12 +270,10 @@ b:hover
 .aemp:hover
 {
 	color:rgb(0, 104, 0);
-	font-size:40px;
 	background-color:rgba(0, 104, 0, .1);
 	margin-right:19%;
 	margin-left:19%;
-	text-indent:7%;
-	border-radius:90px;
+	padding-right:1%;
 }
 #bons
 {
@@ -245,14 +290,16 @@ b:hover
 {
 	margin-top:-1%;
 	background-image:url(bon.jpg);
-	margin-right:30%;
-	margin-left:30%;
+	margin-right:10%;
+	margin-left:10%;
 	text-align:center;
-	font-size:180%;
+	font-size:540%;
 	background-size:100%;
-	padding-top:18%;
-	padding-bottom:2%;
+	padding-top:15%;
+	padding-bottom:5%;
 	box-shadow: 10px -10px 10px rgba(0,204,0,0.5);
+	margin-bottom:-2%;
+	margin-top:-2%;
 }
 #bonsdiv:hover
 {
@@ -265,30 +312,31 @@ b:hover
 	color:black;
 	font-size:35px;
 	background-color:rgba(0, 0, 0, .1);
-	margin-left:5%;
-	margin-right:5%;
+	margin-left:10%;
+	margin-right:10%;
 }
 .weop
 {
 	color:black;
 	font-size:30px;
 	background-color:rgba(0, 204, 0, .5);
-	margin-left:5%;
-	margin-right:5%;
+	margin-left:10%;
+	margin-right:10%;
 	margin-top:-2%;
 	text-indent:7%;
 }
 #wediv
 {
-	margin-left:25%;
-	margin-right:25%;
+	margin-left:10%;
+	margin-right:10%;
 	background-color:rgba(0, 254, 0, .1);
-	margin-top:-1%;
+	margin-top:-3%;
+	padding-bottom:5%;
 }
 .wetem
 {
-	margin-right:5%;
-	margin-left:5%;
+	margin-right:20%;
+	margin-left:20%;
 	margin-top:10%;
 	text-align:center;
 	background-color:rgba(0, 204, 0, .2);
@@ -312,8 +360,9 @@ b:hover
 .kinf
 {
 	background-color:rgba(0, 0, 0, .2);
-	margin-left:10%;
-	margin-right:10%;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:-4.5%;
 }
 #nsh4
 {
@@ -326,9 +375,10 @@ b:hover
 	color:black;
 	font-size:30px;
 	background-color:rgba(0, 204, 0, .3);
-	margin-left:15%;
-	margin-right:15%;
+	margin-left:20%;
+	margin-right:20%;
 	text-indent:7%;
+	margin-top:9%;
 }
 .fmev
 {
@@ -409,4 +459,18 @@ form
 {
 	background-image:url(kollectiveop.png);
 	background-size:100% 100%;
+	margin-left:10%;
+	margin-right:10%;
+}
+#mainshop
+{
+	text-align:center;
+	margin-top:-2%;
+	margin-bottom:2%;
+}
+#writeus_we
+{
+	background-color:rgba(0,204,0,.1);
+	margin-left:10%;
+	margin-right:10%;
 }
